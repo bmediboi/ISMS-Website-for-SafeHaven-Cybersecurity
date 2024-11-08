@@ -5,7 +5,7 @@
     <img src="assets/logo.jpeg" alt="SafeHaven Cybersecurity Logo" style="width: 65%;">   
 </div>
 
-<!-- Large Overview Image with Full Width (Max 800px) -->
+<!-- Large Overview Image with Full Width (Max 800px) --> 
 <img src="assets/image.jpg" alt="ISMS Overview Image" style="width: 100%; max-width: 800px; display: block;">
 
 <!-- Small Logo Above Address at 15% Size, Aligned Left -->
