@@ -198,42 +198,13 @@
 </section>
 
 <!-- Content Display Area for Markdown Content -->
-<!-- Content Display Area for Markdown Content -->
     <div id="content-display" class="content-display">
         <p>Select a document to view its content here.</p>
     </div>
 
-    <!-- JavaScript for Toggling Folders and Loading Markdown Content -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script>
-    // Function to toggle the visibility of subfolders
-    function toggleFolder(folderId) {
-        const folder = document.getElementById(folderId);
-        folder.style.display = folder.style.display === "none" ? "block" : "none";
-    }
-
-     // Updated loadMarkdown function with additional debugging
-    function loadMarkdown(filePath) {
-        // Construct the raw GitHub URL based on the file path
-        const rawURL = `https://raw.githubusercontent.com/bmediboi/ISMS-Website-for-SafeHaven-Cybersecurity/main/${filePath}`;
-        console.log("Attempting to load content from:", rawURL);  // Log URL to check if it's correct
-
-        fetch(rawURL)
-            .then(response => {
-                console.log("Fetch response:", response);  // Log response status
-                if (!response.ok) throw new Error(`Failed to load file: ${response.status}`);
-                return response.text();
-            })
-            .then(markdownContent => {
-                console.log("Markdown content loaded successfully.");  // Log success
-                document.getElementById("content-display").innerHTML = marked.parse(markdownContent);
-            })
-            .catch(error => {
-                console.error("Error loading markdown file:", error);  // Log error details
-                document.getElementById("content-display").innerHTML = `<p>Error loading content. Please try again.</p>`;
-            });
-    }
-</script>
+    <script src="assets/script.js"></script>
+</body>
+</html>
 
 
 <!-- Footer Section -->
