@@ -1,9 +1,0 @@
-markdown: kramdown
-theme: minima  # or whichever theme you're using
----
-layout: default
-title: "Instructions and Overview"
-toc: false  # This disables the TOC for this page if your theme supports it
----
-
-
