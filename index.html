@@ -213,7 +213,10 @@ function toggleFolder(folderId) {
 
 // Function to load Markdown content and render it in HTML
 function loadMarkdown(filePath) {
-    fetch(`https://raw.githubusercontent.com/bmediboi/ISMS-Website-for-SafeHaven-Cybersecurity/main/${filePath}`)
+    const rawURL = `https://raw.githubusercontent.com/bmediboi/ISMS-Website-for-SafeHaven-Cybersecurity/main/${filePath}`;
+    console.log("Attempting to load content from:", rawURL);  // Log URL to check if it's correct
+
+    fetch(rawURL)
         .then(response => {
             if (!response.ok) throw new Error('Failed to load file');
             return response.text();
@@ -225,8 +228,9 @@ function loadMarkdown(filePath) {
             console.error('Error loading markdown file:', error);
             document.getElementById("content-display").innerHTML = `<p>Error loading content. Please try again.</p>`;
         });
-}    
+}
 </script>
+
 
 <!-- Footer Section -->
 <!-- Footer Section -->
