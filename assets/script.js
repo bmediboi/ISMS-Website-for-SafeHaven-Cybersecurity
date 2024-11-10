@@ -26,4 +26,4 @@ async function loadMarkdown(filePath) {
         contentDisplay.innerHTML = "<p>Failed to load content. Please check the file path.</p>";
         console.error(error);
     }
-}
+} 
