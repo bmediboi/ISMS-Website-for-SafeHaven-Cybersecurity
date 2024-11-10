@@ -122,3 +122,39 @@
             <li><a href="https://bmediboi.github.io/ISMS-Website-for-SafeHaven-Cybersecurity/Policies_and_Compliance/Compliance/2.2.2_Policy_Change_Management.html">2.2.2 Policy Change Management</a></li>
             <li><a href="https://bmediboi.github.io/ISMS-Website-for-SafeHaven-Cybersecurity/Policies_and_Compliance/Compliance/2.2.3_Data_Protection_Policy.html">2.2.3 Data Protection Policy</a></li>
         </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Content Display Area for Markdown Content -->
+<div id="content-display" class="content-display">
+    <p>Select a document to view its content here.</p>
+</div>
+
+<!-- JavaScript for Toggling Folders and Loading Markdown Content -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+// Function to toggle the visibility of subfolders
+function toggleFolder(folderId) {
+    const folder = document.getElementById(folderId);
+    folder.style.display = folder.style.display === "none" ? "block" : "none";
+}
+
+// Function to load Markdown content and render it in HTML
+function loadMarkdown(filePath) {
+    fetch(`https://raw.githubusercontent.com/bmediboi/ISMS-Website-for-SafeHaven-Cybersecurity/main/${filePath}`)
+        .then(response => {
+            if (!response.ok) throw new Error('Failed to load file');
+            return response.text();
+        })
+        .then(markdownContent => {
+            document.getElementById("content-display").innerHTML = marked(markdownContent);
+        })
+        .catch(error => {
+            console.error('Error loading markdown file:', error);
+            document.getElementById("content-display").innerHTML = `<p>Error loading content. Please try again.</p>`;
+        });
+}
+</script>
+
+        
