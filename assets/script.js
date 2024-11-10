@@ -8,7 +8,7 @@ function toggleFolder(folderId) {
     }
 }
 
-// Function to load and display Markdown content
+// Function to load and display Markdown content with Markdown formatting
 async function loadMarkdown(filePath) {
     const contentDisplay = document.getElementById("content-display");
 
@@ -20,8 +20,8 @@ async function loadMarkdown(filePath) {
 
         const text = await response.text();
 
-        // Render the Markdown as plain text (you could use a library like marked.js to convert it to HTML)
-        contentDisplay.innerHTML = `<pre>${text}</pre>`;
+        // Use marked.js to convert Markdown to HTML
+        contentDisplay.innerHTML = marked(text);
     } catch (error) {
         contentDisplay.innerHTML = "<p>Failed to load content. Please check the file path.</p>";
         console.error(error);
