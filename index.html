@@ -219,13 +219,13 @@ function loadMarkdown(filePath) {
             return response.text();
         })
         .then(markdownContent => {
-            document.getElementById("content-display").innerHTML = marked(markdownContent);
+            document.getElementById("content-display").innerHTML = marked.parse(markdownContent);
         })
         .catch(error => {
             console.error('Error loading markdown file:', error);
             document.getElementById("content-display").innerHTML = `<p>Error loading content. Please try again.</p>`;
         });
-}
+}    
 </script>
 
 <!-- Footer Section -->
