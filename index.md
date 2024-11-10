@@ -1,3 +1,8 @@
+---
+layout: default
+title: "ISMS Documentation"
+---
+
 <!-- ISMS Documentation Section -->
 <section class="isms-documentation">
     <h2>ISMS Documentation</h2>
@@ -6,16 +11,15 @@
     <!-- Folder List -->
     <div class="folder-list">
         <!-- Main Folder 1 -->
-<div class="folder">
-    <h3 onclick="toggleFolder('folder1')">1. Instructions_and_Overview</h3>
-    <ul id="folder1" class="subfolder-list" style="display: none;">
-        <li><a href="/ISMS-Website-for-SafeHaven-Cybersecurity/content/Instructions_and_Overview/1.1_Instructions_for_Site_Navigation.html">1.1 Instructions for Site Navigation</a></li>
-        <li><a href="/ISMS-Website-for-SafeHaven-Cybersecurity/content/Instructions_and_Overview/1.2_ISMS_Objectives_and_Scope.html">1.2 ISMS Objectives and Scope</a></li>
-        <li><a href="/ISMS-Website-for-SafeHaven-Cybersecurity/content/Instructions_and_Overview/1.3_Compliance_Standards.html">1.3 Compliance Standards</a></li>
-        <li><a href="/ISMS-Website-for-SafeHaven-Cybersecurity/content/Instructions_and_Overview/1.4_Roles_and_Responsibilities.html">1.4 Roles and Responsibilities</a></li>
-    </ul>
-</div>
-
+        <div class="folder">
+            <h3 onclick="toggleFolder('folder1')">1. Instructions_and_Overview</h3>
+            <ul id="folder1" class="subfolder-list" style="display: none;">
+                <li><a href="/ISMS-Website-for-SafeHaven-Cybersecurity/content/Instructions_and_Overview/1.1_Instructions_for_Site_Navigation.html">1.1 Instructions for Site Navigation</a></li>
+                <li><a href="/ISMS-Website-for-SafeHaven-Cybersecurity/content/Instructions_and_Overview/1.2_ISMS_Objectives_and_Scope.html">1.2 ISMS Objectives and Scope</a></li>
+                <li><a href="/ISMS-Website-for-SafeHaven-Cybersecurity/content/Instructions_and_Overview/1.3_Compliance_Standards.html">1.3 Compliance Standards</a></li>
+                <li><a href="/ISMS-Website-for-SafeHaven-Cybersecurity/content/Instructions_and_Overview/1.4_Roles_and_Responsibilities.html">1.4 Roles and Responsibilities</a></li>
+            </ul>
+        </div>
 
         <!-- Main Folder 2 -->
         <div class="folder">
