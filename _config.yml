@@ -1,6 +1,7 @@
 markdown: kramdown
 theme: minima  # or whichever theme you're using
 
+toc: false
 ---
 layout: default
 ---
