@@ -212,25 +212,28 @@
         folder.style.display = folder.style.display === "none" ? "block" : "none";
     }
 
-    // Function to load Markdown content and render it in HTML
+     // Updated loadMarkdown function with additional debugging
     function loadMarkdown(filePath) {
+        // Construct the raw GitHub URL based on the file path
         const rawURL = `https://raw.githubusercontent.com/bmediboi/ISMS-Website-for-SafeHaven-Cybersecurity/main/${filePath}`;
-        console.log("Attempting to load content from:", rawURL);
+        console.log("Attempting to load content from:", rawURL);  // Log URL to check if it's correct
 
         fetch(rawURL)
             .then(response => {
-                if (!response.ok) throw new Error('Failed to load file');
+                console.log("Fetch response:", response);  // Log response status
+                if (!response.ok) throw new Error(`Failed to load file: ${response.status}`);
                 return response.text();
             })
             .then(markdownContent => {
-                document.getElementById("content-display").innerHTML = marked(markdownContent);
+                console.log("Markdown content loaded successfully.");  // Log success
+                document.getElementById("content-display").innerHTML = marked.parse(markdownContent);
             })
             .catch(error => {
-                console.error('Error loading markdown file:', error);
+                console.error("Error loading markdown file:", error);  // Log error details
                 document.getElementById("content-display").innerHTML = `<p>Error loading content. Please try again.</p>`;
             });
     }
-    </script>
+</script>
 
 
 <!-- Footer Section -->
