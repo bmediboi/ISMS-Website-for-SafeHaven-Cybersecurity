@@ -1,4 +1,5 @@
-theme: minima
+markdown: kramdown
+theme: minima  # or whichever theme you're using
 
 ---
 layout: default
