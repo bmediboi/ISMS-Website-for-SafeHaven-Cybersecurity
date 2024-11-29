@@ -74,11 +74,15 @@ To ensure all organizational systems adhere to a standardized security configura
 - **Audit Team**: Conduct periodic compliance checks to verify adherence to system hardening standards.
 
 ## Revision History
+---
+
 | Version | Date       | Changes Made                                | Approved By        |
 |---------|------------|---------------------------------------------|--------------------|
 | 1.0     | Nov 10, 2024 | Initial draft                              | Daniel Carter      |
 | 1.2     | Nov 20, 2024 | Added patch management and logging sections | Daniel Carter    |
 | 1.4     | Dec 5, 2024 | Expanded user access and firewall controls | Daniel Carter      |
+
+---
 
 ## What is System Hardening?
 System hardening refers to the process of:
@@ -172,6 +176,8 @@ The system hardening process aligns with key industry standards and frameworks:
 
 ## Documentation
 ### System Hardening Checklist
+---
+
 | Step                          | Description                                     | Status        |
 |-------------------------------|-------------------------------------------------|---------------|
 | Apply OS patches              | Ensure all operating systems are up to date.   | Pending/Done  |
