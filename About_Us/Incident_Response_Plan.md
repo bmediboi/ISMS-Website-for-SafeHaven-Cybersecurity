@@ -1,17 +1,69 @@
 # Incident Response Plan
 
+## Security Classification
+Confidential
+
+## Version Number
+2.0
+
+## Approvals
+- **Approved by**: Laura Thompson, Chief Information Security Officer (CISO)
+- **Approval Date**: December 15, 2024
+
+## Related Standards
+- ISO/IEC 27035: Information Security Incident Management
+- NIST Special Publication 800-61: Computer Security Incident Handling Guide
+- GDPR: General Data Protection Regulation
+- SOC 2
+
 ## Purpose
-The purpose of this Incident Response Plan (IRP) is to ensure a structured and efficient approach to managing and mitigating cybersecurity incidents. The plan aims to minimize the impact on SafeHaven Cybersecurity’s operations, protect sensitive data, and restore normal business functions as quickly as possible.
+The purpose of this Incident Response Plan is to establish a structured and systematic approach for detecting, responding to, and recovering from information security incidents to minimize impact on SafeHaven's operations, assets, and reputation.
+
+## Policy Scope
+This policy applies to all employees, contractors, third-party service providers, and any other personnel involved in handling SafeHaven's information assets. It covers all types of information security incidents, including but not limited to data breaches, malware infections, unauthorized access, and denial-of-service attacks.
+
+## Ownership
+- **Policy Owner**: Information Security Department
+- **Manager**: Mark Wilson, Incident Response Manager
+
+## Policy Objective
+The objectives of this Incident Response Plan are to:
+
+1. **Preparation**: Establish and maintain an effective incident response capability.
+2. **Identification**: Rapidly detect and accurately identify information security incidents.
+3. **Containment**: Limit the impact of incidents by preventing further spread or damage.
+4. **Eradication**: Eliminate the root cause of the incident.
+5. **Recovery**: Restore affected systems and services to normal operations.
+6. **Lessons Learned**: Analyze incidents to improve future response and prevent recurrence.
+
+## Policy Statements
+
+1. **Incident Response Team (IRT)**: An Incident Response Team shall be established, comprising members from IT, Legal, HR, and Public Relations departments.
+   
+2. **Reporting Incidents**: All personnel must report suspected or confirmed security incidents immediately to the Incident Response Manager via the designated communication channels (e.g., incident@safehaven.com).
+
+3. **Incident Classification**: Incidents shall be classified based on severity levels to prioritize response efforts.
+
+4. **Communication Plan**: A clear communication strategy must be in place to inform stakeholders, including customers and regulatory bodies, as required.
+
+5. **Documentation**: All actions taken during the incident response process must be thoroughly documented for legal, regulatory, and improvement purposes.
+
+6. **Training and Awareness**: Regular training sessions shall be conducted to ensure all employees are aware of their roles and responsibilities in the event of an incident.
+
+7. **Testing the Plan**: The Incident Response Plan must be tested at least annually through drills or simulations to ensure its effectiveness.
+
+## Revision History
+
+| Version | Date           | Author            | Description                                   | Change Management Ticket | Approved By     |
+|---------|----------------|-------------------|-----------------------------------------------|--------------------------|-----------------|
+| 1.0     | January 10, 2023 | Mark Wilson       | Initial draft                                  | CM-1024                  | Laura Thompson  |
+| 1.1     | July 22, 2023    | Emily Davis       | Updated communication protocols                | CM-1105                  | Laura Thompson  |
+| 1.5     | October 5, 2024  | Michael Lee       | Revised incident classification levels         | CM-1188                  | Laura Thompson  |
+| 2.0     | December 15, 2024 | Sarah Patel       | Comprehensive update to align with new regulations | CM-1250              | Laura Thompson  |
 
 ---
 
-## Objectives
-1. Detect and respond to incidents promptly.
-2. Contain and mitigate the effects of incidents.
-3. Identify root causes and prevent future occurrences.
-4. Ensure regulatory compliance and maintain stakeholder trust.
 
----
 
 ## Incident Response Phases
 
