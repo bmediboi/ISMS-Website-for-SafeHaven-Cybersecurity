@@ -83,6 +83,8 @@ The objective of the Risk Assessment Framework is to:
   - **Impact**: The consequences of the risk event on assets and operations.
 - Assign risk levels (e.g., High, Medium, Low) using a risk matrix.
 
+---
+
 | Likelihood → | High         | Medium      | Low         |
 |--------------|--------------|-------------|-------------|
 | **Impact ↓** |              |             |             |
