@@ -39,9 +39,13 @@ The objective of this policy is to:
 5. **Incident Reporting**: Any significant risk events or breaches must be reported immediately to the Risk Management Officer.
 
 ## Revision History
+---
+
 | Version | Date       | Description                                | Approved By               |
 |---------|------------|--------------------------------------------|---------------------------|
 | 1.0     | 11/30/2024 | Initial draft of the Risk Management Policy | Sarah Johnson, Risk Director |
+
+---
 
 
 
