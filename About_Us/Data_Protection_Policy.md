@@ -39,7 +39,7 @@ The objective of this policy is to:
 5. **Rights of Data Subjects**: Respect and facilitate the rights of data subjects, including access, rectification, deletion, and data portability.
 6. **Incident Reporting**: Report and respond to any data breaches promptly in line with the Incident Response Plan.
 
-## Revision History
+## Revision History  
 ---
 
 | Version | Date       | Description                                | Approved By           |
