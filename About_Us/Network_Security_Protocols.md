@@ -1,16 +1,56 @@
 # Network Security Protocols
 
+## Security Classification
+Confidential
+
+## Version Number
+2.1
+
+## Approvals
+- **Approved by**: Emily Johnson, Head of Network Operations
+- **Approval Date**: November 30, 2024
+
+## Related Standards
+- NIST SP 800-53: Security and Privacy Controls
+- PCI-DSS: Network Security and Monitoring
+- ISO/IEC 27001: Information Security Management Systems
+- CIS Controls: Secure Configuration Guidelines
+
 ## Purpose
-The purpose of this document is to outline the network security protocols employed by SafeHaven Cybersecurity to ensure a secure and resilient network infrastructure. These protocols are designed to protect sensitive data, prevent unauthorized access, and mitigate cyber threats.
+To establish comprehensive protocols that protect SafeHaven's network infrastructure from unauthorized access, disruptions, and potential cyber threats.
 
----
+## Policy Scope
+This policy applies to all internal and external networks, including wired, wireless, and cloud-based connections utilized by SafeHaven Cybersecurity.
 
-## Objectives
-1. Safeguard the integrity, confidentiality, and availability of network resources.
-2. Detect, prevent, and respond to network-related security incidents.
-3. Ensure compliance with industry standards and regulatory requirements.
+## Ownership
+- **Policy Owner**: Network Security Department
+- **Manager**: Adam Brown
 
----
+## Policy Objective
+The objective of this policy is to:
+
+1. Prevent unauthorized access to the organization's network.
+2. Ensure continuous availability of network services.
+3. Maintain compliance with relevant industry and regulatory standards.
+
+## Policy Statements
+
+1. **Access Control**: Multi-factor authentication (MFA) and least-privilege access must be enforced across all network endpoints.
+2. **Firewall Configurations**: Network boundaries must be protected by firewalls configured to block unauthorized traffic.
+3. **Network Segmentation**: Critical assets must be isolated using VLANs and other segmentation techniques.
+4. **Encryption Standards**: All data transmitted over public networks must be encrypted using AES-256 or equivalent protocols.
+5. **Threat Monitoring**: Real-time monitoring tools must be deployed to detect and mitigate potential threats.
+6. **Wireless Security**: Corporate wireless networks must be secured using WPA3 encryption and regularly updated credentials.
+7. **Incident Handling**: A predefined incident response procedure must be followed in case of any network breach.
+
+## Revision History
+
+| Version | Date           | Author              | Description                           | Change Management Ticket | Approved By        |
+|---------|----------------|---------------------|---------------------------------------|--------------------------|--------------------|
+| 1.0     | January 5, 2023 | Adam Brown          | Initial creation                      | CM-1001                  | Emily Johnson      |
+| 1.1     | May 10, 2023    | Lisa White          | Added network segmentation guidelines | CM-1023                  | Emily Johnson      |
+| 2.0     | August 15, 2024 | Mark Taylor         | Updated wireless security protocols   | CM-1107                  | Emily Johnson      |
+| 2.1     | November 30, 2024 | Rachel Cooper     | Enhanced encryption standards         | CM-1154                  | Emily Johnson      |
 
 ## Core Network Security Protocols
 
