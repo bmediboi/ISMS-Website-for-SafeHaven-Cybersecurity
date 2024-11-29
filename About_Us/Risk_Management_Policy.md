@@ -1,20 +1,49 @@
 # Risk Management Policy
 
+## Security Classification
+Confidential
+
+## Version Number
+1.0
+
+## Approvals
+- Approved by: Sarah Johnson, Risk Management Director
+- Approval Date: November 30, 2024
+
+## Related Standards
+- ISO 31000: Risk Management
+- NIST Cybersecurity Framework
+- SOC 2
+- FFIEC IT Handbook
+
 ## Purpose
-The purpose of this policy is to establish a framework for identifying, assessing, mitigating, and monitoring risks that could negatively impact SafeHaven Cybersecurity’s operations, data, and reputation.
+The purpose of this policy is to establish a structured approach to identifying, assessing, and mitigating risks that could impact SafeHaven’s operations, assets, and stakeholders.
 
-## Scope
-This policy applies to:
-- All employees, contractors, and third-party vendors involved in SafeHaven operations.
-- All systems, networks, and processes critical to SafeHaven’s functioning.
+## Policy Scope
+This policy applies to all SafeHaven employees, contractors, and third-party partners involved in risk management and mitigation activities.
 
-## Objectives
-1. **Identify Risks**: Ensure all potential risks to the organization are identified.
-2. **Evaluate Risks**: Assess the likelihood and impact of each identified risk.
-3. **Mitigate Risks**: Implement appropriate strategies to minimize risks.
-4. **Monitor Risks**: Continuously monitor and re-evaluate risks to maintain effective management.
+## Ownership
+- Policy Owner: Michael Brown, Risk Management Officer
 
-## Policy Guidelines
+## Policy Objective
+The objective of this policy is to:
+1. Minimize potential risks to SafeHaven’s operations and reputation.
+2. Ensure compliance with legal and regulatory risk management requirements.
+3. Foster a proactive risk management culture across the organization.
+
+## Policy Statements
+1. **Risk Identification**: All employees and departments are responsible for reporting potential risks through designated channels.
+2. **Risk Assessment**: Risks will be evaluated based on likelihood and impact, using a standardized risk assessment matrix.
+3. **Risk Mitigation**: Mitigation strategies will be implemented based on the criticality and severity of identified risks.
+4. **Risk Monitoring**: Risks will be continuously monitored, with periodic reviews to adjust mitigation strategies as necessary.
+5. **Incident Reporting**: Any significant risk events or breaches must be reported immediately to the Risk Management Officer.
+
+## Revision History
+| Version | Date       | Description                                | Approved By               |
+|---------|------------|--------------------------------------------|---------------------------|
+| 1.0     | 11/30/2024 | Initial draft of the Risk Management Policy | Sarah Johnson, Risk Director |
+
+
 
 ### 1. Risk Identification
 - Risks must be identified across all business units and operations.
