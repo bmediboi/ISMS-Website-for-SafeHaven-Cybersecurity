@@ -1,19 +1,69 @@
 # Risk Assessment Framework
 
+## Security Classification
+Internal Use Only
+
+## Version Number
+1.0
+
+## Approvals
+- Approved by: Dr. Alex Morgan, Chief Risk Officer
+- Approval Date: November 30, 2024
+
+## Related Standards
+- ISO 31000:2018
+- NIST Special Publication 800-30
+- ISO/IEC 27005
+
 ## Purpose
-The purpose of this framework is to establish a standardized methodology for identifying, analyzing, evaluating, and mitigating risks to SafeHaven Cybersecurity's systems, processes, and operations. This ensures the confidentiality, integrity, and availability of critical assets.
+The purpose of this framework is to establish a structured and consistent approach to identifying, assessing, and mitigating risks that could impact SafeHaven’s operations, assets, and reputation.
 
-## Scope
-This framework applies to:
-- All IT systems, networks, applications, and data assets.
-- All business processes and third-party interactions.
-- Employees, contractors, and third-party vendors handling company assets.
+## Policy Scope
+This framework applies to all SafeHaven departments, projects, and operations, including internal processes, third-party services, and information systems.
 
-## Objectives
-1. **Identify Risks**: Proactively recognize potential risks to information security and business continuity.
-2. **Evaluate Risks**: Assess the likelihood and impact of identified risks.
-3. **Mitigate Risks**: Develop and implement controls to minimize or eliminate risks.
-4. **Monitor and Review**: Continuously monitor and update risk assessments to reflect the changing threat landscape.
+## Ownership
+- Policy Owner: Dr. Alex Morgan, Chief Risk Officer
+
+## Framework Objective
+The objective of the Risk Assessment Framework is to:
+1. Identify potential risks that may affect the organization’s objectives.
+2. Assess the likelihood and impact of identified risks.
+3. Develop and implement effective mitigation strategies.
+4. Continuously monitor and review risks to adapt to changing environments.
+
+## Framework Components
+
+1. **Risk Identification**
+   - Conduct workshops, interviews, and surveys to identify potential risks.
+   - Categorize risks into operational, strategic, compliance, financial, and cybersecurity risks.
+   - Maintain a centralized risk register.
+
+2. **Risk Assessment**
+   - Use qualitative and quantitative methods to evaluate the likelihood and impact of each identified risk.
+   - Prioritize risks based on their severity using a risk matrix.
+
+3. **Risk Mitigation**
+   - Develop and implement mitigation strategies, including risk avoidance, transfer, acceptance, or reduction.
+   - Assign responsibilities and timelines for risk mitigation actions.
+
+4. **Risk Monitoring**
+   - Regularly review and update the risk register.
+   - Use Key Risk Indicators (KRIs) to monitor changes in risk levels.
+   - Conduct periodic risk assessments and audits.
+
+5. **Reporting and Communication**
+   - Provide regular updates on risk status to the Risk Management Committee.
+   - Ensure stakeholders are informed about significant risks and mitigation actions.
+
+## Policy Statements
+1. Risk assessments must be conducted at least annually or as part of major projects, acquisitions, or changes in the business environment.
+2. All high-priority risks must be escalated to the executive management team.
+3. Mitigation plans must include specific actions, deadlines, and responsible parties.
+
+## Revision History
+| Version | Date       | Description                                  | Approved By                |
+|---------|------------|----------------------------------------------|----------------------------|
+| 1.0     | 11/30/2024 | Initial draft of the Risk Assessment Framework | Dr. Alex Morgan, Chief Risk Officer |
 
 ---
 
