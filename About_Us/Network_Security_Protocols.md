@@ -44,6 +44,7 @@ The objective of this policy is to:
 7. **Incident Handling**: A predefined incident response procedure must be followed in case of any network breach.
 
 ## Revision History
+---
 
 | Version | Date           | Author              | Description                           | Change Management Ticket | Approved By        |
 |---------|----------------|---------------------|---------------------------------------|--------------------------|--------------------|
@@ -51,6 +52,8 @@ The objective of this policy is to:
 | 1.1     | May 10, 2023    | Lisa White          | Added network segmentation guidelines | CM-1023                  | Emily Johnson      |
 | 2.0     | August 15, 2024 | Mark Taylor         | Updated wireless security protocols   | CM-1107                  | Emily Johnson      |
 | 2.1     | November 30, 2024 | Rachel Cooper     | Enhanced encryption standards         | CM-1154                  | Emily Johnson      |
+
+---
 
 ## Core Network Security Protocols
 
