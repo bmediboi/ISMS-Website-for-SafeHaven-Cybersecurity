@@ -39,11 +39,14 @@ The objective of this policy is to:
 4. **Post-Implementation Review**: All changes must be reviewed post-implementation to confirm successful deployment and identify improvement opportunities.
 5. **Emergency Changes**: Emergency changes must be documented retrospectively and follow the standard approval process as soon as possible.
 
+---
+
 ## Revision History
 | Version | Date       | Description                                    | Approved By               |
 |---------|------------|------------------------------------------------|---------------------------|
 | 1.0     | 11/30/2024 | Initial draft of the Change Management Policy   | Emily Carter, Change Management Officer |
 
+---
 
 ### 1. Types of Changes
 Changes are classified as:
