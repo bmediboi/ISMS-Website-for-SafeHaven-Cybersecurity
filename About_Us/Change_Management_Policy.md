@@ -1,20 +1,49 @@
 # Change Management Policy
 
+## Security Classification
+Internal Use Only
+
+## Version Number
+1.0
+
+## Approvals
+- Approved by: Emily Carter, Change Management Officer
+- Approval Date: November 30, 2024
+
+## Related Standards
+- ITIL Framework
+- ISO/IEC 20000
+- COBIT
+- SOC 2
+
 ## Purpose
-The purpose of this policy is to establish a structured approach to managing changes within SafeHaven Cybersecurity’s systems, processes, and operations to minimize risks and ensure business continuity.
+The purpose of this policy is to ensure all changes to SafeHaven’s systems, processes, and infrastructure are managed in a controlled and coordinated manner to minimize risks and disruptions.
 
-## Scope
-This policy applies to:
-- All changes to IT systems, infrastructure, and applications.
-- Changes to business processes, workflows, and policies.
-- All employees, contractors, and third-party vendors involved in the change process.
+## Policy Scope
+This policy applies to all SafeHaven employees, contractors, and third-party vendors involved in requesting, approving, implementing, and reviewing changes to IT systems, business processes, or physical infrastructure.
 
-## Objectives
-1. **Standardize Change Management**: Provide a structured approach for planning, approving, implementing, and monitoring changes.
-2. **Minimize Risks**: Reduce the likelihood of errors, disruptions, and security breaches caused by changes.
-3. **Enhance Communication**: Ensure all stakeholders are informed and involved in the change process.
+## Ownership
+- Policy Owner: Emily Carter, Change Management Officer
 
-## Policy Guidelines
+## Policy Objective
+The objective of this policy is to:
+1. Provide a standardized approach to change management across the organization.
+2. Minimize potential risks and service disruptions caused by changes.
+3. Ensure compliance with legal, regulatory, and business requirements.
+4. Maintain accurate documentation of all changes for auditing and reporting purposes.
+
+## Policy Statements
+1. **Change Requests**: All changes must be initiated through a formal change request, including a detailed description, impact analysis, and risk assessment.
+2. **Change Approval**: Changes must be reviewed and approved by the Change Advisory Board (CAB) or authorized personnel before implementation.
+3. **Change Implementation**: Approved changes must follow predefined implementation steps, including rollback plans in case of failure.
+4. **Post-Implementation Review**: All changes must be reviewed post-implementation to confirm successful deployment and identify improvement opportunities.
+5. **Emergency Changes**: Emergency changes must be documented retrospectively and follow the standard approval process as soon as possible.
+
+## Revision History
+| Version | Date       | Description                                    | Approved By               |
+|---------|------------|------------------------------------------------|---------------------------|
+| 1.0     | 11/30/2024 | Initial draft of the Change Management Policy   | Emily Carter, Change Management Officer |
+
 
 ### 1. Types of Changes
 Changes are classified as:
