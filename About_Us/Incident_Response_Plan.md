@@ -53,6 +53,7 @@ The objectives of this Incident Response Plan are to:
 7. **Testing the Plan**: The Incident Response Plan must be tested at least annually through drills or simulations to ensure its effectiveness.
 
 ## Revision History
+---
 
 | Version | Date           | Author            | Description                                   | Change Management Ticket | Approved By     |
 |---------|----------------|-------------------|-----------------------------------------------|--------------------------|-----------------|
