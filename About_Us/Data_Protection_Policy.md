@@ -40,6 +40,8 @@ The objective of this policy is to:
 6. **Incident Reporting**: Report and respond to any data breaches promptly in line with the Incident Response Plan.
 
 ## Revision History
+---
+
 | Version | Date       | Description                                | Approved By           |
 |---------|------------|--------------------------------------------|-----------------------|
 | 1.0     | 11/30/2024 | Initial draft of the Data Protection Policy | John Doe, CISO        |
