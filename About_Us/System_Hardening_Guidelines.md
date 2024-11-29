@@ -1,9 +1,71 @@
 # System Hardening Guidelines
 
-## Purpose
-The purpose of these guidelines is to establish a secure baseline configuration for all systems within SafeHaven Cybersecurity's infrastructure. System hardening reduces vulnerabilities, minimizes the attack surface, and enhances the overall security posture of the organization.
+## Security Classification
+Restricted
 
----
+## Version Number
+1.4
+
+## Approvals
+- Approved by: Daniel Carter, IT Security Manager
+- Approval Date: December 5, 2024
+
+## Related Standards
+- ISO/IEC 27001: Information Security Management
+- NIST Special Publication 800-123: Guide to General Server Security
+
+## Purpose
+To outline the baseline configurations and best practices for securing systems and reducing vulnerabilities, thereby minimizing the attack surface of organizational IT assets.
+
+## Policy Scope
+This policy applies to all servers, endpoints, network devices, and other IT systems within the organization.
+
+## Ownership
+- Policy Owner: IT Security Office
+- Manager: Daniel Carter
+
+## Policy Objective
+To ensure the security and integrity of all organizational systems by enforcing standardized system hardening practices and configurations.
+
+## System Hardening Procedures
+1. **Baseline Configurations**:
+   - Implement and enforce baseline configurations for all systems.
+   - Use approved configuration management tools to automate and verify compliance.
+
+2. **Patch Management**:
+   - Regularly apply security updates and patches to operating systems and applications.
+   - Prioritize critical and high-risk patches within 24-48 hours of release.
+
+3. **User Access Controls**:
+   - Enforce the principle of least privilege for user accounts.
+   - Use multi-factor authentication (MFA) for administrative access.
+
+4. **Disable Unnecessary Services**:
+   - Identify and disable services, ports, and protocols not required for system functionality.
+
+5. **Logging and Monitoring**:
+   - Enable detailed logging for system events.
+   - Forward logs to a centralized log management or SIEM solution for analysis.
+
+6. **Firewall and Network Protection**:
+   - Configure host-based firewalls to allow only necessary traffic.
+   - Implement network segmentation to restrict lateral movement.
+
+7. **Secure Configuration Management**:
+   - Use secure protocols (e.g., HTTPS, SSH) for communication.
+   - Ensure default passwords are changed, and strong password policies are enforced.
+
+## Responsibilities
+- **IT Administrators**: Ensure systems comply with hardening guidelines during setup and maintenance.
+- **Security Team**: Regularly review and update hardening guidelines to reflect evolving threats and technologies.
+- **Audit Team**: Conduct periodic compliance checks to verify adherence to system hardening standards.
+
+## Revision History
+| Version | Date       | Changes Made                                | Approved By        |
+|---------|------------|---------------------------------------------|--------------------|
+| 1.0     | Nov 10, 2024 | Initial draft                              | Daniel Carter      |
+| 1.2     | Nov 20, 2024 | Added patch management and logging sections | Daniel Carter    |
+| 1.4     | Dec 5, 2024 | Expanded user access and firewall controls | Daniel Carter      |
 
 ## What is System Hardening?
 System hardening refers to the process of:
