@@ -1,9 +1,53 @@
 # Risk Register Overview
 
-## Purpose
-The purpose of the Risk Register is to serve as a centralized repository for all identified risks, their assessments, and the corresponding mitigation strategies. It provides a clear, structured approach for tracking and managing risks to ensure the safety and resilience of SafeHaven Cybersecurity's operations.
+## Security Classification
+Confidential
 
----
+## Version Number
+1.3
+
+## Approvals
+- Approved by: Angela Martinez, Director of Risk Management
+- Approval Date: December 3, 2024
+
+## Related Standards
+- ISO/IEC 31000: Risk Management
+- NIST Special Publication 800-30: Guide for Conducting Risk Assessments
+
+## Purpose
+To provide a centralized repository for documenting and tracking risks, their assessment, and their treatment plans to ensure effective risk management throughout the organization.
+
+## Policy Scope
+This policy applies to all business units, processes, and projects that are part of the organization's risk management framework.
+
+## Ownership
+- Policy Owner: Risk Management Office
+- Manager: Angela Martinez
+
+## Policy Objective
+To enable structured identification, evaluation, and monitoring of risks, supporting proactive decision-making and ensuring organizational resilience.
+
+## Key Components of the Risk Register
+1. **Risk ID**: A unique identifier for each risk.
+2. **Risk Description**: A concise explanation of the risk.
+3. **Likelihood and Impact**: Assessed using qualitative or quantitative scales.
+4. **Risk Category**: Classification of risk (e.g., operational, strategic, financial).
+5. **Risk Owner**: Person or team responsible for managing the risk.
+6. **Mitigation Plan**: Actions to reduce the likelihood or impact of the risk.
+7. **Status**: Current state of the risk (e.g., active, mitigated, closed).
+8. **Review Date**: Scheduled date for the next risk assessment.
+
+## Responsibilities
+- **Risk Owners**: Regularly update the risk register with changes to risk assessments and treatment plans.
+- **Risk Management Office**: Maintain the integrity and accessibility of the risk register.
+- **Audit Team**: Periodically review the risk register for accuracy and compliance.
+
+## Revision History
+| Version | Date       | Changes Made                                | Approved By          |
+|---------|------------|---------------------------------------------|----------------------|
+| 1.0     | Nov 15, 2024 | Initial draft                              | Angela Martinez      |
+| 1.2     | Nov 29, 2024 | Updated categories and mitigation plan format | Angela Martinez  |
+| 1.3     | Dec 3, 2024 | Added detailed responsibilities section     | Angela Martinez      |
 
 ## What is a Risk Register?
 A Risk Register is a documented record of risks that includes:
