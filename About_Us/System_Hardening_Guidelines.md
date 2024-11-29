@@ -4,11 +4,11 @@
 Restricted
 
 ## Version Number
-1.4
+1.5
 
 ## Approvals
-- Approved by: Daniel Carter, IT Security Manager
-- Approval Date: December 5, 2024
+- Approved by: Emily Johnson, IT Operations Manager
+- Approval Date: December 10, 2024
 
 ## Related Standards
 - ISO/IEC 27001: Information Security Management
@@ -22,10 +22,19 @@ This policy applies to all servers, endpoints, network devices, and other IT sys
 
 ## Ownership
 - Policy Owner: IT Security Office
-- Manager: Daniel Carter
+- Manager: Emily Johnson
 
 ## Policy Objective
-To ensure the security and integrity of all organizational systems by enforcing standardized system hardening practices and configurations.
+To ensure all organizational systems adhere to a standardized security configuration, reducing risks associated with cyber threats and compliance violations.
+
+## Revision History
+| Version | Date       | Author            | Description                               | Approver        |
+|---------|------------|-------------------|-------------------------------------------|-----------------|
+| 1.0     | June 1, 2023 | John Doe         | Initial draft                             | Daniel Carter   |
+| 1.2     | September 5, 2023 | Jane Smith      | Added specific server hardening requirements | Emily Johnson   |
+| 1.4     | November 12, 2024 | Alice Brown    | Updated NIST standards reference          | Daniel Carter   |
+| 1.5     | December 10, 2024 | Bob Miller     | Enhanced endpoint protection guidelines   | Emily Johnson   |
+
 
 ## System Hardening Procedures
 1. **Baseline Configurations**:
