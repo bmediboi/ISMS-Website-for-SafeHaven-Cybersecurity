@@ -39,11 +39,15 @@ To reduce the organization's risk exposure by implementing suitable risk treatme
 - **Internal Audit Team**: Ensure compliance with the risk treatment framework.
 
 ## Revision History
+---
+
 | Version | Date       | Changes Made                                | Approved By         |
 |---------|------------|---------------------------------------------|---------------------|
 | 1.0     | Nov 20, 2024 | Initial policy draft                      | Dr. Samuel Ford     |
 | 1.1     | Nov 25, 2024 | Added specific examples for risk mitigation | Dr. Samuel Ford    |
 | 1.2     | Dec 2, 2024 | Updated approval process and formatting    | Dr. Samuel Ford     |
+
+---
 
 
 ## Risk Treatment Overview
