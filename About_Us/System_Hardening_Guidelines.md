@@ -28,12 +28,16 @@ This policy applies to all servers, endpoints, network devices, and other IT sys
 To ensure all organizational systems adhere to a standardized security configuration, reducing risks associated with cyber threats and compliance violations.
 
 ## Revision History
+---
+
 | Version | Date       | Author            | Description                               | Approver        |
 |---------|------------|-------------------|-------------------------------------------|-----------------|
 | 1.0     | June 1, 2023 | John Doe         | Initial draft                             | Daniel Carter   |
 | 1.2     | September 5, 2023 | Jane Smith      | Added specific server hardening requirements | Emily Johnson   |
 | 1.4     | November 12, 2024 | Alice Brown    | Updated NIST standards reference          | Daniel Carter   |
 | 1.5     | December 10, 2024 | Bob Miller     | Enhanced endpoint protection guidelines   | Emily Johnson   |
+
+---
 
 
 ## System Hardening Procedures
