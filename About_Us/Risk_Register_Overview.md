@@ -43,11 +43,15 @@ To enable structured identification, evaluation, and monitoring of risks, suppor
 - **Audit Team**: Periodically review the risk register for accuracy and compliance.
 
 ## Revision History
+---
+
 | Version | Date       | Changes Made                                | Approved By          |
 |---------|------------|---------------------------------------------|----------------------|
 | 1.0     | Nov 15, 2024 | Initial draft                              | Angela Martinez      |
 | 1.2     | Nov 29, 2024 | Updated categories and mitigation plan format | Angela Martinez  |
 | 1.3     | Dec 3, 2024 | Added detailed responsibilities section     | Angela Martinez      |
+
+---
 
 ## What is a Risk Register?
 A Risk Register is a documented record of risks that includes:
