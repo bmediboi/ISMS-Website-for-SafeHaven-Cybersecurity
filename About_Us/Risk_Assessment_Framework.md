@@ -61,6 +61,8 @@ The objective of the Risk Assessment Framework is to:
 3. Mitigation plans must include specific actions, deadlines, and responsible parties.
 
 ## Revision History
+---
+
 | Version | Date       | Description                                  | Approved By                |
 |---------|------------|----------------------------------------------|----------------------------|
 | 1.0     | 11/30/2024 | Initial draft of the Risk Assessment Framework | Dr. Alex Morgan, Chief Risk Officer |
